@@ -12,15 +12,20 @@ body {
 main {
   background-color: #013243;
   width: 90vw;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-content: space-around;
   margin: 0 auto;
+  padding: 2%;
 }
-
+h2 {
+  z-index: 5;
+}
 #logo {
   display: inline-block;
   margin-left: 12vw;
+  margin-bottom: 2%;
 }
 
 #message,
@@ -29,4 +34,87 @@ main {
   display: flex;
   flex-direction: column;
   margin-left: 12vw;
+}
+#message > h2 {
+  font-size: 6rem;
+  color: #32f5c8;
+  font-weight: bold;
+}
+#message > p {
+  width: 50%;
+  font-size: 1rem;
+  margin-left: 2%;
+}
+button {
+  color: black;
+  background-color: #32f5c8;
+  padding: 10px;
+  margin: 2%;
+}
+#notify-btn {
+  font-weight: bold;
+  padding: 1%;
+  border: none;
+  border-radius: 5px;
+  font-size: 0.5rem;
+}
+.users {
+  position: absolute;
+  width: 110px;
+  height: 110px;
+}
+#user1 {
+  float: right;
+  margin-left: 66.4vw;
+  margin-top: 17%;
+  width: 100px;
+  height: 100px;
+}
+
+#user2 {
+  float: right;
+  margin-left: 48vw;
+}
+
+#user3 {
+  float: right;
+  margin-left: 58vw;
+  margin-top: -4vw;
+  width: 150px;
+  height: 150px;
+}
+
+#user4 {
+  float: right;
+  margin-left: 39vw;
+  margin-top: 18%;
+}
+
+#user5 {
+  float: right;
+  margin-left: 53vw;
+  margin-top: -9%;
+  width: 200px;
+  height: 200px;
+}
+
+#user6 {
+  float: left;
+  margin-left: -5vw;
+  width: 120px;
+  height: 120px;
+}
+
+#follow {
+  margin-top: 1%;
+}
+
+#follow-twt {
+  display: flex;
+  margin-left: 2%;
+  align-items: center;
+}
+#follow-twt > p {
+  margin-left: 2%;
+  font-size: small;
 }
