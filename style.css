@@ -6,4 +6,27 @@
 
 body {
   font-family: "Inter";
+  background-color: black;
+  color: white;
+}
+main {
+  background-color: #013243;
+  width: 90vw;
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+  margin: 0 auto;
+}
+
+#logo {
+  display: inline-block;
+  margin-left: 12vw;
+}
+
+#message,
+#notify,
+#follow {
+  display: flex;
+  flex-direction: column;
+  margin-left: 12vw;
 }
